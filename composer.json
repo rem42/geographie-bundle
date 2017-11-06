@@ -22,7 +22,7 @@
         	}
 	],
 	"require" : {
-		"lyssal/structure-bundle" : "0.*",
+		"lyssal/structure-bundle" : "dev-master",
 		"stof/doctrine-extensions-bundle" : "1.*",
 		"sonata-project/translation-bundle": "1.*"
 	},
