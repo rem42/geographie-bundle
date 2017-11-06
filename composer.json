@@ -15,6 +15,12 @@
 			"homepage" : "http://www.lyssal.com/"
 		}
 	],
+	"repositories": [
+		{
+            		"type" : "git",
+            		"url" : "https://github.com/rem42/structure-bundle.git"
+        	}
+	],
 	"require" : {
 		"lyssal/structure-bundle" : "0.*",
 		"stof/doctrine-extensions-bundle" : "1.*",
