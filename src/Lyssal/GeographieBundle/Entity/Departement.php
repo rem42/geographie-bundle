@@ -247,6 +247,6 @@ abstract class Departement implements Translatable, TranslatableInterface
      */
     public function __toString()
     {
-        return $this->getNom();
+        return (string) $this->getNom();
     }
 }

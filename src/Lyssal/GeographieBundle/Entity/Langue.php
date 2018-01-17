@@ -195,6 +195,6 @@ abstract class Langue implements Translatable, TranslatableInterface
      */
     public function __toString()
     {
-        return $this->nom;
+        return (string) $this->nom;
     }
 }
