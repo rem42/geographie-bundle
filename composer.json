@@ -24,7 +24,7 @@
 	"require" : {
 		"lyssal/structure-bundle" : "dev-master",
 		"stof/doctrine-extensions-bundle" : "1.*",
-		"sonata-project/translation-bundle": "1.*"
+		"sonata-project/translation-bundle": "2.*"
 	},
 	"suggest" : {
 		"lyssal/admin-bundle" : "Pour gérer les données géographiques depuis une console administrative basée sur SonataAdmin",
