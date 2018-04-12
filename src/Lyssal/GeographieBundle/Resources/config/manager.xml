@@ -23,7 +23,7 @@
             <argument type="service" id="doctrine.orm.entity_manager" />
             <argument>%lyssal.geographie.entity.langue.class%</argument>
         </service>
-        <service id="lyssal.geographie.manager.pays" class="%lyssal.geographie.manager.pays.class%">
+        <service id="lyssal.geographie.manager.pays" class="%lyssal.geographie.manager.pays.class%" public="true">
             <argument type="service" id="doctrine.orm.entity_manager" />
             <argument>%lyssal.geographie.entity.pays.class%</argument>
         </service>
